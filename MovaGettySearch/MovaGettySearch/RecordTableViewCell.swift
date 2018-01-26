@@ -40,6 +40,8 @@ class RecordTableViewCell: UITableViewCell {
     private let searchWordLabel: UILabel = {
         let label = UILabel()
         label.translatesAutoresizingMaskIntoConstraints = false
+        label.font = UIFont.boldSystemFont(ofSize: 17)
+        label.baselineAdjustment = .alignBaselines
         label.numberOfLines = 0
         return label
     }()
